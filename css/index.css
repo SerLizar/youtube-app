@@ -1,0 +1,27 @@
+ul {
+	padding: 0;
+	width: 100%;
+}
+
+li {
+	padding: 10px 20px;
+	display: block;
+	list-style: none;
+	background-color: #CCC;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+h2 {
+	margin-top: 0;
+	color: black;
+}
+
+li img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}

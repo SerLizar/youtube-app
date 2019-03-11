@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Search Youtube</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<header>
+		<h1>
+			Search YouTube through it´s API
+		</h1>
+	</header>
+	<main>
+		<form class="youtubeSearchForm">
+			<fieldset>
+				<legend>
+					YouTube Video Finder
+				</legend>
+				<label for="youtubeSearchBox">
+					Search for YouTube Videos
+				</label>
+				<input id="youtubeSearchBox" class="searchBox" type="text" name="youtubeSearchBox">
+				<button type="submit" class="submitButton">
+					Submit
+				</button>
+			</fieldset>
+		</form>
+		<ul class="results">
+		</ul>
+		<button class="previous10" value=''>Previous 10 Videos</button>
+		<button class="next10" value=''>Next 10 Videos</button>
+	</main>
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
